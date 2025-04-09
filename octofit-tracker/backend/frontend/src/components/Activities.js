@@ -12,9 +12,9 @@ function Activities() {
 
   return (
     <div>
-      <h1>Activities</h1>
-      <table className="table">
-        <thead>
+      <h1 className="text-primary">Activities</h1>
+      <table className="table table-striped">
+        <thead className="thead-dark">
           <tr>
             <th>ID</th>
             <th>Name</th>
@@ -31,6 +31,7 @@ function Activities() {
           ))}
         </tbody>
       </table>
+      <button className="btn btn-primary mt-3">Add Activity</button>
     </div>
   );
 }

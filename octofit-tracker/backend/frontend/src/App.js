@@ -10,8 +10,22 @@ function App() {
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" to="/">OctoFit Tracker</Link>
-        <div className="collapse navbar-collapse">
+        <Link className="navbar-brand" to="/">
+          <img src="/octofitapp-small.png" alt="OctoFit Logo" className="logo" />
+          OctoFit Tracker
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item"><Link className="nav-link" to="/activities">Activities</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/leaderboard">Leaderboard</Link></li>
