@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-(gdq-kc)6&om)bc0k0nw*0exqf7k^#h)30)4^nw_aw0(!wy2au
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://ideal-waddle-vjrvwrqgj9vhw4jw-8000.app.github.dev/',
+    'ideal-waddle-vjrvwrqgj9vhw4jw-8000.app.github.dev',
     'localhost',
     '127.0.0.1'
 ]
